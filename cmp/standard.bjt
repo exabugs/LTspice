@@ -196,3 +196,36 @@
 .model 2SCR574D NPN(Is=1.0000E-12 Bf=226.21 Vaf=103.70 Ikf=15 Ise=1.0000E-12 Ne=1.5805 Br=78.835 Var=43 Ikr=1.3435 Isc=5.2175E-12 Nc=1.2893 Nk=1.0840 Re=30.000E-3 Rb=1.4908 Rc=55.610E-3 Cje=496.19E-12 Vje=.76899 Mje=.35078 Cjc=63.898E-12 Vjc=.75325 Mjc=.4557 Tf=498.62E-12 Xtf=454.99 Vtf=242.95 Itf=83.905 Tr=33.570E-9 Xtb=1.2500 TRE1=0.005 Vceo=80 Icrating=2 mfg=Rohm)
 .model 2SD1898 NPN(Is=280.00E-15 Bf=199.80 Vaf=40 Ikf=4.6752 Ise=280.00E-15 Ne=1.5882 Br=404.98 Var=100 Ikr=.40942 Isc=4.9564E-12 Nc=1.2884 Nk=.97272 Re=40.000E-3 Rb=2.0332 Rc=51.971E-3 Cje=311.85E-12 Mje=.35932 Cjc=41.583E-12 Mjc=.46676 Tf=615.97E-12 Xtf=27.568 Vtf=62.853 Itf=14.820 Tr=99.286E-9 Xtb=1.5000 Vceo=80 Icrating=1 mfg=Rohm)
 .model 2SD2656 NPN(Is=400.00E-15 Bf=413.31 Vaf=30 Ikf=2.4205 Ise=2.1950E-12 Ne=1.8979 Br=51.833 Var=100 Ikr=.79315 Isc=1.5842E-9 Nc=2.1922 Nk=.98841 Re=70.000E-3 Rb=2.4948 Rc=.10728 Cje=91.854E-12 Mje=.40813 Cjc=15.894E-12 Mjc=.43434 Tf=323.06E-12 Xtf=365.63 Vtf=123.24 Itf=80.819 Tr=32.978E-9 Xtb=1.5000 Vceo=30 Icrating=1 mfg=Rohm)
+
+*Low Noise Amp PC=0.4W Ic=0.15A Vcbo=60V Complementary 2SA1015
+.model 2SC1815 NPN(Is=2.04E-15 Xti=3 Eg=1.11 Vaf=6 Bf=300 Ne=1.5 Ise=0
++ Vceo=50 Icrating=150m mfg=TOSHIBA
++ Ikf=20m Xtb=1.5 Br=3.377 Nc=2 Isc=0 Ikr=0 Rc=1 Cjc=1p Mjc=.3333
++ Vjc=.75 Fc=.5 Cje=25p Mje=.3333 Vje=.75 Tr=450n Tf=20n Itf=0 Vtf=0 Xtf=0)
+ 
+.model 2SC1815-GR NPN(Is=2.04E-15 Xti=3 Eg=1.11 Vaf=6 Bf=300 Ne=1.5 Ise=0
++ Vceo=50 Icrating=150m mfg=TOSHIBA
++ Ikf=20m Xtb=1.5 Br=3.377 Nc=2 Isc=0 Ikr=0 Rc=1 Cjc=1p Mjc=.3333
++ Vjc=.75 Fc=.5 Cje=25p Mje=.3333 Vje=.75 Tr=450n Tf=20n Itf=0 Vtf=0 Xtf=0)
+ 
+.model 2SC1815-Y NPN(Is=2.04E-15 Xti=3 Eg=1.11 Vaf=6 Bf=200 Ne=1.5 Ise=0
++ Vceo=50 Icrating=150m mfg=TOSHIBA
++ Ikf=20m Xtb=1.5 Br=3.377 Nc=2 Isc=0 Ikr=0 Rc=1 Cjc=1p Mjc=.3333
++ Vjc=.75 Fc=.5 Cje=25p Mje=.3333 Vje=.75 Tr=450n Tf=20n Itf=0 Vtf=0 Xtf=0)
+
+*Low Noise Amp PC=0.4W Ic=0.15A Vcbo=50V Complementary 2SC1815
+.model 2SA1015 PNP(Is=295.1E-18 Xti=3 Eg=1.11 Vaf=100 Bf=300 Ne=1.5 Ise=0
++ Vceo=50 Icrating=150m mfg=TOSHIBA
++ Ikf=0 Xtb=1.5 Br=10.45 Nc=2 Isc=0 Ikr=0 Rc=15 Cjc=66.2p
++ Mjc=1.054 Vjc=.75 Fc=.5 Cje=5p Mje=.3333 Vje=.75 Tr=10n Tf=1.661n Itf=0 Vtf=0 Xtf=0)
+ 
+.model 2SA1015-GR PNP(Is=295.1E-18 Xti=3 Eg=1.11 Vaf=100 Bf=300 Ne=1.5 Ise=0
++ Vceo=50 Icrating=150m mfg=TOSHIBA
++ Ikf=0 Xtb=1.5 Br=10.45 Nc=2 Isc=0 Ikr=0 Rc=15 Cjc=66.2p
++ Mjc=1.054 Vjc=.75 Fc=.5 Cje=5p Mje=.3333 Vje=.75 Tr=10n Tf=1.661n Itf=0 Vtf=0 Xtf=0)
+ 
+.model 2SA1015-Y PNP(Is=295.1E-18 Xti=3 Eg=1.11 Vaf=100 Bf=200 Ne=1.5 Ise=0
++ Vceo=50 Icrating=150m mfg=TOSHIBA
++ Ikf=0 Xtb=1.5 Br=10.45 Nc=2 Isc=0 Ikr=0 Rc=15 Cjc=66.2p
++ Mjc=1.054 Vjc=.75 Fc=.5 Cje=5p Mje=.3333 Vje=.75 Tr=10n Tf=1.661n Itf=0 Vtf=0 Xtf=0)
+
