@@ -22,3 +22,61 @@
 .model 2N5462 PJF(Is=1.5p Alpha=1e-4 Vk=300 Vto=-5.4 Vtotc=-3m Beta=2.0m Lambda=10m Betatce=-.5 Rd=10 Rs=10 Cgs=5p Cgd=5p Kf=3e-17 mfg=Siliconix)
 
 
+*** Copyright T.ENZAKA 2009.9.2 *********************************************
+*
+*
+.model PJFETTYP PJF(Vto=-1 Beta=10m Lambda=1m Is=10f Isr=1p Vk=300 Alpha=1u Rd=10 Rs=10 CGD=10p CGS=15p Pb=1 M=0.5 mfg=CQ)
+*
+*
+.model 2SJ74GR PJF(Vto=-0.28 Beta=51m Lambda=2m Is=10f Isr=1p Vk=300 Alpha=1u Rd=0.5 Rs=0.5 CGD=90p CGS=90p Pb=0.3 M=0.3 mfg=TOSHIBA)
+*
+.model 2SJ74BL PJF(Vto=-0.43 Beta=43m Lambda=2m Is=10f Isr=1p Vk=300 Alpha=1u Rd=0.5 Rs=0.5 CGD=90p CGS=90p Pb=0.3 M=0.3 mfg=TOSHIBA)
+*
+.model 2SJ74V PJF(Vto=-0.62 Beta=36.5m Lambda=2m Is=10f Isr=1p Vk=300 Alpha=1u Rd=0.5 Rs=0.5 CGD=90p CGS=90p Pb=0.3 M=0.3 mfg=TOSHIBA)
+*
+*
+.model 2SJ109GR PJF(Vto=-0.25 Beta=68m Lambda=2m Is=10f Isr=1p Vk=300 Alpha=1u Rd=2 Rs=2 CGD=85p CGS=85p Pb=0.35 M=0.3 mfg=TOSHIBA)
+*
+.model 2SJ109BL PJF(Vto=-0.4 Beta=53m Lambda=2m Is=10f Isr=1p Vk=300 Alpha=1u Rd=2 Rs=2 CGD=85p CGS=85p Pb=0.35 M=0.3 mfg=TOSHIBA)
+*
+.model 2SJ109V PJF(Vto=-0.58 Beta=47.5m Lambda=2m Is=10f Isr=1p Vk=300 Alpha=1u Rd=2 Rs=2 CGD=85p CGS=85p Pb=0.35 M=0.3 mfg=TOSHIBA)
+*
+*
+*
+.model NJFETTYP NJF(Vto=-1 Beta=10m Lambda=1m Is=10f Isr=100f Vk=100 Alpha=10u Rd=10 Rs=10 CGD=10p CGS=15p Pb=1 M=0.5 mfg=CQ)
+*
+*
+.model 2SK30AY NJF(Vto=-1.4 Beta=1.1m Lambda=1m Is=10f Isr=100f Vk=100 Alpha=10u Rd=30 Rs=30 CGD=9p CGS=9p Pb=0.3 M=0.38 mfg=TOSHIBA)
+*
+.model 2SK30AGR NJF(Vto=-2.4 Beta=0.77m Lambda=1m Is=10f Isr=100f Vk=100 Alpha=10u Rd=30 Rs=30 CGD=9p CGS=9p Pb=0.3 M=0.38 mfg=TOSHIBA)
+*
+*
+.model 2SK117GR NJF(Vto=-0.42 Beta=30m Lambda=5m Is=10f Isr=100f Vk=100 Alpha=10u Rd=15 Rs=15 CGD=9p CGS=15p Pb=0.55 M=0.33 mfg=TOSHIBA)
+*
+.model 2SK117BL NJF(Vto=-0.75 Beta=23m Lambda=5m Is=10f Isr=100f Vk=100 Alpha=10u Rd=15 Rs=15 CGD=9p CGS=15p Pb=0.55 M=0.33 mfg=TOSHIBA)
+*
+*
+.model 2SK170GR NJF(Vto=-0.3 Beta=50m Lambda=5m Is=10f Isr=100f Vk=100 Alpha=10u Rd=5 Rs=5 CGD=24p CGS=24p Pb=0.4 M=0.4 mfg=TOSHIBA)
+*
+.model 2SK170BL NJF(Vto=-0.45 Beta=45.5m Lambda=5m Is=10f Isr=100f Vk=100 Alpha=10u Rd=5 Rs=5 CGD=24p CGS=24p Pb=0.4 M=0.4 mfg=TOSHIBA)
+*
+.model 2SK170V NJF(Vto=-0.65 Beta=40m Lambda=5m Is=10f Isr=100f Vk=100 Alpha=10u Rd=5 Rs=5 CGD=24p CGS=24p Pb=0.4 M=0.4 mfg=TOSHIBA)
+*
+*
+.model 2SK369GR NJF(Vto=-0.25 Beta=140m Lambda=8m Is=10f Isr=300f Vk=100 Alpha=30u Rd=0.2 Rs=0.2 CGD=46pp CGS=74p Pb=0.45 M=0.36 mfg=TOSHIBA)
+*
+.model 2SK369BL NJF(Vto=-0.33 Beta=135m Lambda=8m Is=10f Isr=300f Vk=100 Alpha=30u Rd=0.2 Rs=0.2 CGD=46pp CGS=74p Pb=0.45 M=0.36 mfg=TOSHIBA)
+*
+.model 2SK369V NJF(Vto=-0.5 Beta=76m Lambda=8m Is=10f Isr=300f Vk=100 Alpha=30u Rd=0.2 Rs=0.2 CGD=46pp CGS=74p Pb=0.45 M=0.36 mfg=TOSHIBA)
+*
+.model 2SK389GR NJF(Vto=-0.33 Beta=40m Lambda=6m Is=10f Isr=1p Vk=80 Alpha=1u Rd=2 Rs=2 CGD=20p CGS=25p Pb=0.45 M=0.38 mfg=TOSHIBA)
+*
+.model 2SK389BL NJF(Vto=-0.5 Beta=36m Lambda=6m Is=10f Isr=1p Vk=80 Alpha=1u Rd=2 Rs=2 CGD=20p CGS=25p Pb=0.45 M=0.38 mfg=TOSHIBA)
+*
+.model 2SK389V NJF(Vto=-0.68 Beta=31m Lambda=6m Is=10f Isr=1p Vk=80 Alpha=1u Rd=2 Rs=2 CGD=20p CGS=25p Pb=0.45 M=0.38 mfg=TOSHIBA)
+*
+*
+********************************************* Copyright T.ENZAKA 2009.9.2 ***
+*
+*
+
