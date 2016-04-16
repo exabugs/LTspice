@@ -198,17 +198,17 @@
 .model 2SD2656 NPN(Is=400.00E-15 Bf=413.31 Vaf=30 Ikf=2.4205 Ise=2.1950E-12 Ne=1.8979 Br=51.833 Var=100 Ikr=.79315 Isc=1.5842E-9 Nc=2.1922 Nk=.98841 Re=70.000E-3 Rb=2.4948 Rc=.10728 Cje=91.854E-12 Mje=.40813 Cjc=15.894E-12 Mjc=.43434 Tf=323.06E-12 Xtf=365.63 Vtf=123.24 Itf=80.819 Tr=32.978E-9 Xtb=1.5000 Vceo=30 Icrating=1 mfg=Rohm)
 
 *Low Noise Amp PC=0.4W Ic=0.15A Vcbo=60V Complementary 2SA1015
-.model 2SC1815 NPN(Is=2.04E-15 Xti=3 Eg=1.11 Vaf=6 Bf=300 Ne=1.5 Ise=0
+.model 2SC1815 NPN(Is=2.04E-15 Xti=3 Eg=1.11 Vaf=100 Bf=300 Ne=1.5 Ise=0
 + Vceo=50 Icrating=150m mfg=TOSHIBA
 + Ikf=20m Xtb=1.5 Br=3.377 Nc=2 Isc=0 Ikr=0 Rc=1 Cjc=1p Mjc=.3333
 + Vjc=.75 Fc=.5 Cje=25p Mje=.3333 Vje=.75 Tr=450n Tf=20n Itf=0 Vtf=0 Xtf=0)
  
-.model 2SC1815-GR NPN(Is=2.04E-15 Xti=3 Eg=1.11 Vaf=6 Bf=300 Ne=1.5 Ise=0
+.model 2SC1815-GR NPN(Is=2.04E-15 Xti=3 Eg=1.11 Vaf=100 Bf=300 Ne=1.5 Ise=0
 + Vceo=50 Icrating=150m mfg=TOSHIBA
 + Ikf=20m Xtb=1.5 Br=3.377 Nc=2 Isc=0 Ikr=0 Rc=1 Cjc=1p Mjc=.3333
 + Vjc=.75 Fc=.5 Cje=25p Mje=.3333 Vje=.75 Tr=450n Tf=20n Itf=0 Vtf=0 Xtf=0)
  
-.model 2SC1815-Y NPN(Is=2.04E-15 Xti=3 Eg=1.11 Vaf=6 Bf=200 Ne=1.5 Ise=0
+.model 2SC1815-Y NPN(Is=2.04E-15 Xti=3 Eg=1.11 Vaf=100 Bf=200 Ne=1.5 Ise=0
 + Vceo=50 Icrating=150m mfg=TOSHIBA
 + Ikf=20m Xtb=1.5 Br=3.377 Nc=2 Isc=0 Ikr=0 Rc=1 Cjc=1p Mjc=.3333
 + Vjc=.75 Fc=.5 Cje=25p Mje=.3333 Vje=.75 Tr=450n Tf=20n Itf=0 Vtf=0 Xtf=0)
